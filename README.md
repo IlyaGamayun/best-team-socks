@@ -1,2 +1,2 @@
 # best-team-socks
-Socks shop
+Awesome prettiest socks shop
