@@ -11,8 +11,10 @@ app.use(ssr);
 app.use(express.static('public'));
 
 const mainRoute = require('./Routes/mainRoute');
+const authRoute = require('./Routes/authRoute');
 
 app.use('/', mainRoute);
+app.use('/auth', authRoute);
 
 app.listen(PORT, () => {
   console.log('Носок шуршит...');
