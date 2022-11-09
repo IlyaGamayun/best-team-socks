@@ -33,7 +33,7 @@ h2 {
 .logo {
   width: 25%;
   vertical-align: center;
-  padding-top: 5px;
+  padding-top: 8px;
 }
 
 .menu {
@@ -44,15 +44,22 @@ h2 {
   align-items: center;
 }
 
-.soksBody > img {
-  /* float: left;
-  margin: 7px 0 7px 7px;  */
+.contentBody {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.soksBody {
-  text-align: center;
-  padding: 50px;
-  width: 500px;
+.image {
+  width: 25%;
+}
+
+.imageText {
+  padding-left: 10px;
+  width: 50%;
 }
 
 .slogan {
@@ -120,7 +127,7 @@ button:hover {
 }
 
 .copyright {
-  width: 400px;
+  width: 20%;
 }
 
 .footerLink {
