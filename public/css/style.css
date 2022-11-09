@@ -101,7 +101,6 @@ h2 {
   color: #F5F5F5;
   font-size: 15px;
   display: flex;
-  justify-content: center;
   flex-wrap:wrap column;
   flex-flow:row;
   align-items: center;
