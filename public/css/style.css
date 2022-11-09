@@ -2,6 +2,7 @@
 
 body {
   background-color: #F5F5F5;
+  height: 100%;
 }
 
 * {
@@ -66,7 +67,7 @@ h2 {
   vertical-align: center;
   align-items: center;
   padding: 10px;
-  padding-left: 138px;
+  padding-left: 7.5%;
   font-size: 20pt;
 }
 
@@ -109,6 +110,11 @@ h2 {
   justify-content: space-around;
   vertical-align:middle;
   margin: none;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
 }
 
 button {
