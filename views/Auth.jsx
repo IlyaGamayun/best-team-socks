@@ -12,7 +12,7 @@ module.exports = function Auth({ title }) {
           <br />
           <strong>Пароль: </strong>
           <br />
-          <input type="password" placeholder="Ваш пароль" />
+          <input type="password" minLength="5" placeholder="Ваш пароль" />
           <br />
           <button type="submit">Войти</button>
         </form>
