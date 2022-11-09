@@ -22,18 +22,18 @@ h2 {
 
 .header {
   background-color: #9370DB;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   margin: none;
   padding-left: 10px;
-  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  vertical-align:middle;
 }
 
 .logo {
   width: 25%;
   vertical-align: center;
-  padding-top: 8px;
 }
 
 .menu {
@@ -66,6 +66,7 @@ h2 {
   vertical-align: center;
   align-items: center;
   padding: 10px;
+  padding-left: 138px;
   font-size: 20pt;
 }
 
@@ -139,4 +140,8 @@ button:hover {
 
 h1 {
   font-size: 22pt;;
+}
+
+h2 {
+  text-align: center;
 }
